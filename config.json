@@ -1,0 +1,142 @@
+{
+    "Брянский государственный технический университет": {
+        "Системы искусственного интеллекта и обработка больших данных": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/63240/applicants",
+            "numberOfPlaces": 17
+        },
+        "Компьютерное проектирование и дизайн": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/64163/applicants",
+            "numberOfPlaces": 17
+        },
+        "Информационные технологии в цифровой экономике": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/63661/applicants",
+            "numberOfPlaces": 36
+        },
+        "Разработка программно-информационных систем": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/64177/applicants",
+            "numberOfPlaces": 17
+        },
+        "Искусственный интеллект в автоматизированном проектировании": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/63289/applicants",
+            "numberOfPlaces": 17
+        },
+        "Информационные системы и технологии в дизайне": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/63164/applicants",
+            "numberOfPlaces": 17
+        },
+        "Управление проектами в сфере информационных технологий": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/63552/applicants",
+            "numberOfPlaces": 17
+        },
+        "Технология программирования": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/62952/applicants",
+            "numberOfPlaces": 16
+        },
+        "Программное обеспечение вычислительной техники и автоматизированных систем": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/62961/applicants",
+            "numberOfPlaces": 57
+        },
+        "Информационные технологии и программные комплексы": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/63098/applicants",
+            "numberOfPlaces": 17
+        }
+    },
+    "Санкт-Петербургский государственный университет": {
+        "Механика и математическое моделирование (с дополнительной квалификацией «Специалист по научно-техническим разработкам»)": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/22667/applicants",
+            "numberOfPlaces": 32
+        },
+        "Прикладные физика и математика (с дополнительной квалификацией «Программист»)": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/22575/applicants",
+            "numberOfPlaces": 21
+        },
+        "Инженерно-ориентированная физика": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/22331/applicants",
+            "numberOfPlaces": 8
+        },
+        "Физика (с дополнительной квалификацией «Программист»)": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/22589/applicants",
+            "numberOfPlaces": 72
+        },
+        "Прикладная математика, процессы управления и искусственный интеллект (с дополнительной квалификацией «Программист»)": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/22495/applicants",
+            "numberOfPlaces": 137
+        },
+        "Фундаментальная математика (с дополнительными квалификациями «Педагог дополнительного образования» / «Учитель математики»)": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/22628/applicants",
+            "numberOfPlaces": 16
+        }
+    },
+    "Московский институт электронной техники": {
+        "Компьютерная математика и математическое моделирование": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/35473/applicants",
+            "numberOfPlaces": 39
+        },
+        "Аппаратно-программное обеспечение информационно-управляющих систем": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/35478/applicants",
+            "numberOfPlaces": 53
+        },
+        "Информационные технологии в дизайне": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/35486/applicants",
+            "numberOfPlaces": 41
+        },
+        "Техническая защита информации": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/35499/applicants",
+            "numberOfPlaces": 36
+        },
+        "Сети и устройства инфокоммуникаций; Сети и системы инфокоммуникаций": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/35566/applicants",
+            "numberOfPlaces": 58
+        }
+    },
+    "Нижегородский государственный технический университет им. Р.Е. Алексеева": {
+        "Сети связи и системы коммутации": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/118578/applicants",
+            "numberOfPlaces": 18
+        },
+        "Безопасность информационных систем; Информационно-телекоммуникационные системы и сети; Распределенные информационные системы; Информационные технологии в дизайне": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/118584/applicants",
+            "numberOfPlaces": 85
+        },
+        "Программное обеспечение средств вычислительной техники и автоматизированных систем; Системы искусственного интеллекта; Интеллектуальные системы обработки информации и управления": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/118602/applicants",
+            "numberOfPlaces": 79
+        },
+        "Математическое моделирование и компьютерные технологии": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/118606/applicants",
+            "numberOfPlaces": 26
+        },
+        "Программирование и системный анализ": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/118609/applicants",
+            "numberOfPlaces": 19
+        },
+        "Оптические системы и сети связи": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/118610/applicants",
+            "numberOfPlaces": 19
+        }
+    },
+    "Дзержинский политехнический институт - филиал «Нижегородский государственный технический университет им. Р.Е. Алексеева»": {
+        "Математические и компьютерные методы для современных технологий": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/118603/applicants",
+            "numberOfPlaces": 19
+        }
+    },
+    "Нижегородский государственный университет им. Н.И. Лобачевского": {
+        "Прикладная информатика в области принятия решений; Проектирование и автоматизация производства изделий микроэлектроники (ПИШ); Суперкомпьютерное моделирование и инженерный анализ (ПИШ)": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/62396/applicants",
+            "numberOfPlaces": 23
+        },
+        "Сопряженная разработка программного и аппаратного обеспечения (сетевая программа, реализуемая совместно с ИТ- кампусом АНО «Неймарк»)": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/62400/applicants",
+            "numberOfPlaces": 19
+        },
+        "Системное программирование": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/62401/applicants",
+            "numberOfPlaces": 39
+        },
+        "Математическое моделирование и вычислительная математика; Математическое моделирование и искусственный интеллект": {
+            "url": "https://www.gosuslugi.ru/api/university-applicant-list/v1/public/2026/competition/62418/applicants",
+            "numberOfPlaces": 87
+        }
+    }
+}
