@@ -3,14 +3,15 @@ import requests
 import json
 
 
-def get_place(url: str) -> int:
+# 1343734
+def get_place(url: str, idApplication: int) -> int:
     response = requests.get(url)
     response.raise_for_status()
     data: dict = response.json()
 
     place: int = 1
     for applicant in data["applicants"]:
-        if applicant["idApplication"] == 1343734:
+        if applicant["idApplication"] == idApplication:
             return place
         if applicant["consent"] == "ONLINE" or applicant["consent"] == "OFFLINE":
             place += 1
@@ -21,13 +22,25 @@ def get_place(url: str) -> int:
 
 def main():
     config: dict = json.loads(open("config.json", "r", encoding="utf-8").read())
-    for university in config.keys():
-        print(f" * {university}")
-        for specialty in config[university].keys():
-            print(
-                f"    -> {specialty}: {get_place(config[university][specialty]['url'])} из {config[university][specialty]['numberOfPlaces']}"
-            )
-            time.sleep(1)
+
+    idApplication: int = int(input("Здесь введи свой ID: "))
+    requests_delay: float = float(
+        input("А здесь введи задержку между запросами (сек.): ")
+    )
+    if requests_delay < 0.5:
+        raise Exception(
+            "Не стоит ставить столь маленькую задержку, госуслуги могут посчитать это DDoS-атакой ;)"
+        )
+
+    running = True
+    while running:
+        for university in config.keys():
+            print(f" * {university}")
+            for specialty in config[university].keys():
+                print(
+                    f"    -> {specialty}: {get_place(config[university][specialty]['url'], idApplication)} из {config[university][specialty]['numberOfPlaces']}"
+                )
+                time.sleep(requests_delay)
 
 
 if __name__ == "__main__":
