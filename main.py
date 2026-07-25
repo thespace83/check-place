@@ -24,9 +24,13 @@ def main():
     config: dict = json.loads(open("config.json", "r", encoding="utf-8").read())
 
     idApplication: int = int(input("Здесь введи свой ID: "))
+    if idApplication == "":
+        idApplication = 1343734
+
     requests_delay: float = float(
         input("А здесь введи задержку между запросами (сек.): ")
     )
+
     if requests_delay < 0.5:
         raise Exception(
             "Не стоит ставить столь маленькую задержку, госуслуги могут посчитать это DDoS-атакой ;)"
@@ -41,6 +45,7 @@ def main():
                     f"    -> {specialty}: {get_place(config[university][specialty]['url'], idApplication)} из {config[university][specialty]['numberOfPlaces']}"
                 )
                 time.sleep(requests_delay)
+        running = False
 
 
 if __name__ == "__main__":
