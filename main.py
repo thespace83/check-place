@@ -23,13 +23,11 @@ def get_place(url: str, idApplication: int) -> int:
 def main():
     config: dict = json.loads(open("config.json", "r", encoding="utf-8").read())
 
-    idApplication: int = int(input("Здесь введи свой ID: "))
-    if idApplication == "":
-        idApplication = 1343734
+    idApplication = input("Здесь введи свой ID: ")
+    requests_delay = input("А здесь введи задержку между запросами (сек.): ")
 
-    requests_delay: float = float(
-        input("А здесь введи задержку между запросами (сек.): ")
-    )
+    idApplication: int = 1343734 if idApplication == "" else int(idApplication)
+    requests_delay: float = 0.5 if requests_delay == "" else float(requests_delay)
 
     if requests_delay < 0.5:
         raise Exception(
